@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
@@ -13,7 +12,7 @@ class Scene extends StatelessWidget {
     return Container(
       width: double.infinity,
       child: Container(
-        // homer7h (1:303)
+  
         width: double.infinity,
         decoration: BoxDecoration (
           color: Color(0xfff7fbff),
@@ -22,14 +21,14 @@ class Scene extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              // autogroups1o5Bvf (KWnsNkvUHg7AqY1qGFS1o5)
+            
               padding: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 23*fem),
               width: double.infinity,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    // autogroupri9mv7Z (KWnrtwPVWQdAfeHrvWri9m)
+                  
                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 50*fem),
                     padding: EdgeInsets.fromLTRB(27*fem, 28*fem, 21*fem, 86*fem),
                     width: 375*fem,
@@ -49,7 +48,7 @@ class Scene extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // pleasebringprescriptionwithyou (1:312)
+                          
                           margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 14*fem, 21.11*fem),
                           constraints: BoxConstraints (
                             maxWidth: 281*fem,
@@ -66,7 +65,7 @@ class Scene extends StatelessWidget {
                           ),
                         ),
                         Container(
-                          // searchbarb7D (1:306)
+                          
                           padding: EdgeInsets.fromLTRB(24*fem, 10.5*fem, 51*fem, 13.47*fem),
                           width: double.infinity,
                           decoration: BoxDecoration (
@@ -84,7 +83,7 @@ class Scene extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Container(
-                                // group1168sKd (1:309)
+                              
                                 margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 8.17*fem, 7.67*fem),
                                 width: 14.83*fem,
                                 height: 13.26*fem,
@@ -95,7 +94,7 @@ class Scene extends StatelessWidget {
                                 ),
                               ),
                               Container(
-                                // searchmedicinehealthcareproduc (1:308)
+                                
                                 margin: EdgeInsets.fromLTRB(0*fem, 3.93*fem, 0*fem, 0*fem),
                                 child: Text(
                                   'Search Medicine & Healthcare products',
@@ -115,7 +114,7 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // topcategoriessD9 (1:305)
+                  
                     margin: EdgeInsets.fromLTRB(16*fem, 0*fem, 0*fem, 0*fem),
                     child: Text(
                       'Top Categories',
@@ -132,7 +131,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogrouprqohz2s (KWns4GTHHoXd7tAQKTRQoH)
+              
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 10*fem),
               width: double.infinity,
               height: 196*fem,
@@ -148,7 +147,7 @@ class Scene extends StatelessWidget {
               child: Stack(
                 children: [
                   Positioned(
-                    // rectangle1088gAb (1:335)
+                    
                     left: 0*fem,
                     top: 153*fem,
                     child: Align(
@@ -163,142 +162,4 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Positioned(
-                    // kidneyzBH (1:337)
-                    left: 40*fem,
-                    top: 138*fem,
-                    child: Center(
-                      child: Align(
-                        child: SizedBox(
-                          width: 100*fem,
-                          height: 58*fem,
-                          child: Text(
-                            'Kidney',
-                            textAlign: TextAlign.center,
-                            style: SafeGoogleFont (
-                              'Palanquin Dark',
-                              fontSize: 32*ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.81*ffem/fem,
-                              color: Color(0xf2090f47),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Container(
-              // autogroupvks95iX (KWns9M99bo4GK4podeVks9)
-              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 29*fem),
-              width: double.infinity,
-              height: 196*fem,
-              decoration: BoxDecoration (
-                borderRadius: BorderRadius.circular(20*fem),
-                image: DecorationImage (
-                  fit: BoxFit.cover,
-                  image: AssetImage (
-                    'assets/page-1/images/blood-transfusion-1-1-bg.png',
-                  ),
-                ),
-              ),
-              child: Stack(
-                children: [
-                  Positioned(
-                    // rectangle1089zab (1:336)
-                    left: 0*fem,
-                    top: 153*fem,
-                    child: Align(
-                      child: SizedBox(
-                        width: 199*fem,
-                        height: 43*fem,
-                        child: Container(
-                          decoration: BoxDecoration (
-                            color: Color(0xffd9d9d9),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    // bloodhju (1:338)
-                    left: 40*fem,
-                    top: 138*fem,
-                    child: Center(
-                      child: Align(
-                        child: SizedBox(
-                          width: 87*fem,
-                          height: 58*fem,
-                          child: Text(
-                            'Blood',
-                            textAlign: TextAlign.center,
-                            style: SafeGoogleFont (
-                              'Palanquin Dark',
-                              fontSize: 32*ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.81*ffem/fem,
-                              color: Color(0xf2090f47),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Container(
-              // autogroupdi3ho2F (KWnsDvqrD2towmpFQaDi3H)
-              padding: EdgeInsets.fromLTRB(30*fem, 11*fem, 34*fem, 4.88*fem),
-              width: double.infinity,
-              decoration: BoxDecoration (
-                color: Color(0xffd9d9d9),
-                borderRadius: BorderRadius.circular(5*fem),
-              ),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Container(
-                    // iconhomeHi7 (1:314)
-                    margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 108*fem, 0*fem),
-                    width: 38*fem,
-                    height: 35.12*fem,
-                    child: Image.asset(
-                      'assets/page-1/images/icon-home.png',
-                      width: 38*fem,
-                      height: 35.12*fem,
-                    ),
-                  ),
-                  Container(
-                    // iconmessagewnf (1:321)
-                    margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 112*fem, 4*fem),
-                    width: 32*fem,
-                    height: 31.12*fem,
-                    child: Image.asset(
-                      'assets/page-1/images/icon-message.png',
-                      width: 32*fem,
-                      height: 31.12*fem,
-                    ),
-                  ),
-                  Container(
-                    // iconpeopleCib (1:328)
-                    margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 0.12*fem),
-                    width: 37*fem,
-                    height: 35*fem,
-                    child: Image.asset(
-                      'assets/page-1/images/icon-people.png',
-                      width: 37*fem,
-                      height: 35*fem,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-          );
-  }
-}
+                 
