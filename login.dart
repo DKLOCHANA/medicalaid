@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-// ignore: unused_import
+
 import 'package:flutter/gestures.dart';
-import 'dart:ui';
-// ignore: unused_import
+
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
+
 
 class Scene extends StatelessWidget {
   @override
@@ -15,7 +14,7 @@ class Scene extends StatelessWidget {
     return Container(
       width: double.infinity,
       child: Container(
-        // logindZR (1:407)
+        
         padding: EdgeInsets.fromLTRB(22 * fem, 179 * fem, 22.4 * fem, 43 * fem),
         width: double.infinity,
         decoration: BoxDecoration(
@@ -25,7 +24,7 @@ class Scene extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              // logoinfoXPu (1:415)
+              
               margin: EdgeInsets.fromLTRB(
                   52.5 * fem, 0 * fem, 53.1 * fem, 128 * fem),
               width: double.infinity,
@@ -33,7 +32,7 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Container(
-                    // logo4ej (1:416)
+                  
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 26.5 * fem, 0 * fem),
                     width: 115 * fem,
@@ -45,7 +44,6 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // medicaidmZ9 (1:420)
                     width: double.infinity,
                     child: Text(
                       'Medic Aid\n',
@@ -63,7 +61,6 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // pleaseenteryourmobilenumbertol (1:409)
               margin:
                   EdgeInsets.fromLTRB(0 * fem, 0 * fem, 32.6 * fem, 36 * fem),
               constraints: BoxConstraints(
@@ -81,7 +78,6 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroupa9noyQK (KWnukwTE4xkgATEbowA9No)
               margin:
                   EdgeInsets.fromLTRB(16 * fem, 0 * fem, 15.6 * fem, 36 * fem),
               padding:
@@ -104,7 +100,6 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // submitbtncy5 (1:410)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 106 * fem),
               width: double.infinity,
               height: 45 * fem,
@@ -122,7 +117,7 @@ class Scene extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            VerifyOtpPage()), // Replace VerifyOtpPage with your actual page name
+                            VerifyOtpPage()), 
                   );
                 },
                 child: Center(
@@ -143,7 +138,6 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // splashnavigationdot4q5 (1:421)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.6 * fem, 0 * fem),
               width: 40 * fem,
               height: 4 * fem,
