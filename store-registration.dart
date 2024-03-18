@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
+
 
 class Scene extends StatelessWidget {
   @override
@@ -13,7 +12,7 @@ class Scene extends StatelessWidget {
     return Container(
       width: double.infinity,
       child: Container(
-        // storeregistrationPPu (1:145)
+        // storeregistrationPPu 
         padding: EdgeInsets.fromLTRB(19*fem, 31*fem, 17.4*fem, 43*fem),
         width: double.infinity,
         decoration: BoxDecoration (
@@ -23,7 +22,7 @@ class Scene extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              // btnbackgP1 (1:146)
+              // btnbackgP1
               margin: EdgeInsets.fromLTRB(5*fem, 0*fem, 0*fem, 24*fem),
               width: 24*fem,
               height: 24*fem,
@@ -34,7 +33,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroupgeduPYK (KWniZbSXmWWnbsq4k2Gedu)
+              // autogroupgeduPYK 
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 36*fem),
               padding: EdgeInsets.fromLTRB(17*fem, 11*fem, 17*fem, 10*fem),
               width: 336*fem,
@@ -54,7 +53,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroupm1dzRju (KWnidqpTEutbrw3Cpmm1DZ)
+              
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 46*fem),
               padding: EdgeInsets.fromLTRB(17*fem, 10*fem, 17*fem, 11*fem),
               width: 336*fem,
@@ -74,7 +73,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroupgx8oUiB (KWniiqg8GSoZThknDRGx8o)
+              
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 31*fem),
               padding: EdgeInsets.fromLTRB(17*fem, 9*fem, 17*fem, 9*fem),
               width: 336*fem,
@@ -95,7 +94,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroupewrdBFD (KWninvPfAvx1Xw5GT5eWRD)
+     
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 62*fem),
               padding: EdgeInsets.fromLTRB(8*fem, 2*fem, 9*fem, 28*fem),
               width: 336*fem,
@@ -107,7 +106,7 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // addyourmedicinesandhealthcarep (1:159)
+                   
                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 35*fem),
                     constraints: BoxConstraints (
                       maxWidth: 280*fem,
@@ -124,7 +123,7 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // shot1awZ (1:160)
+               
                     width: 319*fem,
                     height: 152*fem,
                     child: Image.asset(
@@ -136,7 +135,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // submitopt6uu (1:151)
+             
               margin: EdgeInsets.fromLTRB(8*fem, 0*fem, 0*fem, 0*fem),
               width: 330.6*fem,
               height: 45*fem,
